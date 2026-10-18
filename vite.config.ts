@@ -5,6 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/OnDa_App-sideproject/',
   plugins: [
     react(),
     VitePWA({
